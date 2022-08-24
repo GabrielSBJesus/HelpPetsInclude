@@ -1,8 +1,6 @@
 const user = document.querySelector('#user');
 const password = document.querySelector('#password');
 const btn = document.querySelector('#login');
-const section = document.querySelector('#container')
-const leftAside = document.querySelector('#left-aside')
 
 let inform = [];
 let conta = 0 
