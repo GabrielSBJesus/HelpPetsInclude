@@ -9,8 +9,7 @@ let conta = 0
 
 
 function Dados(){
-
-    this.click = function(){btn.addEventListener('click', function(){
+    Dados.prototype.click = () => {btn.addEventListener('click',() => {
         if(user.value != '' && password.value != ''){
         const valorUser = user.value
         const valorPass = password.value
@@ -24,7 +23,8 @@ function Dados(){
         console.log('Dados invalidos')
     }
     })    
-}
+    }
+    
 }
 
 const dados = new Dados();
