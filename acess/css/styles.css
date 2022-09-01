@@ -85,6 +85,15 @@ hr {
   margin-top: 30px;
   cursor: pointer;
 }
+#register a{
+  text-decoration: none;
+  color: white;
+  
+}
+#register a:visited{
+  text-decoration: none;
+  color: white;
+}
 
 @media (max-width: 800px) {
   #left-aside {
