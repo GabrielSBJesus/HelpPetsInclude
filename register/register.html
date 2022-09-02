@@ -13,37 +13,37 @@
             <img src="./assets/img/logo.png" alt="">
         </div>
 
-        <article id="formulario">
+        <form action="/cad" method="get" id="formulario">
             <div id="names">
-                <input class="names brothers" type="text" placeholder="Name">
-                <input class="names brothers" type="text" placeholder="Last Name">
+                <input id="name" name="name" class="names brothers" type="text" placeholder="Name">
+                <input id="lastname" name="lastname" class="names brothers" type="text" placeholder="Last Name">
             </div>
 
             <div id="secury">
-                <input class="email brothers" type="text" placeholder="Email or Phone">
-                <input class="password brothers" type="text" placeholder="New Password">
+                <input id="email" name="email" class="email brothers" type="text" placeholder="Email or Phone">
+                <input id="password" name="password" class="password brothers" type="text" placeholder="Password">
             </div>
 
             <div id="date">
-                <input class="date brothers" type="number" placeholder="Day">
-                <input class="date brothers" type="number" placeholder="Month">
-                <input class="date brothers" type="number" placeholder="Year">
+                <input id="day" name="day" class="date brothers" type="number" placeholder="Day">
+                <input id="month" name="month" class="date brothers" type="number" placeholder="Month">
+                <input id="year" name="year" class="date brothers" type="number" placeholder="Year">
             </div>
 
             <div id="sex">
-                <input id="feminile" name="theRadio" class="sex brothers" 
+                <input id="female" name="female" id="feminile" name="theRadio" class="sex brothers" 
                 type="radio">
                 <label for="feminile">Woman</label>
-                <input id="male" name="theRadio" class="sex brothers" type="radio">
+                <input id="male" name="male" id="male" name="theRadio" class="sex brothers" type="radio">
                 <label for="male">Male</label>
-                <input id="custom" name="theRadio" class="sex brothers" type="radio">
+                <input id="custom" name="custom" id="custom" name="theRadio" class="sex brothers" type="radio">
                 <label for="custom">Custom</label>
             </div>
 
             <div id="btn-container">
                 <button id="btn" type="submit">Submit</button>
             </div>
-        </article>
+        </form>
     </section>
     <script></script>
 </body>

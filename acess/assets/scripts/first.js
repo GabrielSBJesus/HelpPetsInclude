@@ -19,7 +19,7 @@ class Dados {
                     login: user.value,
                     password: password.value
                     })
-                console.log(this.inform)
+                    return this.inform
             } else{
                 console.log('Dados errados')
             }
